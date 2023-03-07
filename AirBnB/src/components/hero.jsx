@@ -3,12 +3,16 @@ import photo from "../assets/photo-grid.png"
 function Hero(){
 
     return(
-        <div className="hero">
+        <div>
             <div classname= "img_container">
                 <img src={photo}></img>
             </div>
-            <strong>Online Experiences</strong>
-            <div>sample text</div>
+
+            <div classname="text">
+                <p><strong>Online Experiences</strong></p>
+                <p>sample text</p>
+            </div>
+            
         </div>
     )
 }

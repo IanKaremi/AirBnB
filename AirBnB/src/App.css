@@ -56,16 +56,17 @@ nav{
   font-size: larger;
 }
 .img_container{
-  display: flex;
-  justify-content: center;
-  
+  text-align: center;
 }
-
-.hero{
+p{
   text-align: left;
-  padding-left:18px;
+  padding: 0 0 0 20px;
+
 }
 strong{
-  font-size: 36px;
-  font-weight: bolder;
+  font-size: x-large;
+}
+
+img{
+  width:500px;
 }
